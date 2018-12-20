@@ -26,7 +26,7 @@
 		C91C4F1A21CBE45100507D4C /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C91C4F1921CBE45100507D4C /* CFNetwork.framework */; };
 		C91C4F1C21CBE45D00507D4C /* CoreMIDI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C91C4F1B21CBE45D00507D4C /* CoreMIDI.framework */; };
 		C91C4F1E21CBE46600507D4C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C91C4F1D21CBE46600507D4C /* SystemConfiguration.framework */; };
-		C91C4F2021CBE8B900507D4C /* Bass.h in Headers */ = {isa = PBXBuildFile; fileRef = C91C4F1F21CBE8B900507D4C /* Bass.h */; };
+		C91C4F2421CBEE5600507D4C /* Bass.h in Headers */ = {isa = PBXBuildFile; fileRef = C91C4F2321CBEE5600507D4C /* Bass.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,7 +52,7 @@
 		C91C4F1921CBE45100507D4C /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		C91C4F1B21CBE45D00507D4C /* CoreMIDI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMIDI.framework; path = System/Library/Frameworks/CoreMIDI.framework; sourceTree = SDKROOT; };
 		C91C4F1D21CBE46600507D4C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		C91C4F1F21CBE8B900507D4C /* Bass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Bass.h; path = Bass/Umbrella/Bass.h; sourceTree = SOURCE_ROOT; };
+		C91C4F2321CBEE5600507D4C /* Bass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Bass.h; path = Bass/Umbrella/Bass.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,9 +87,9 @@
 		C91C4E9221CBE37100507D4C = {
 			isa = PBXGroup;
 			children = (
+				C91C4F2221CBED4400507D4C /* Headers */,
 				C91C4EAE21CBE3B300507D4C /* Config */,
 				C91C4EB021CBE3B300507D4C /* Dummy */,
-				C91C4EDD21CBE3B400507D4C /* Headers */,
 				C91C4EA821CBE3B300507D4C /* Plugins */,
 				C91C4EB321CBE3B300507D4C /* Vendor */,
 				C91C4E9D21CBE37100507D4C /* Products */,
@@ -153,15 +153,6 @@
 			path = Bass/Vendor;
 			sourceTree = "<group>";
 		};
-		C91C4EDD21CBE3B400507D4C /* Headers */ = {
-			isa = PBXGroup;
-			children = (
-				C91C4F1F21CBE8B900507D4C /* Bass.h */,
-			);
-			name = Headers;
-			path = Bass/Headers;
-			sourceTree = "<group>";
-		};
 		C91C4F1421CBE3F000507D4C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -174,6 +165,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		C91C4F2221CBED4400507D4C /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				C91C4F2321CBEE5600507D4C /* Bass.h */,
+			);
+			name = Headers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -181,7 +180,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C91C4F2021CBE8B900507D4C /* Bass.h in Headers */,
+				C91C4F2421CBEE5600507D4C /* Bass.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
