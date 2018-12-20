@@ -421,9 +421,10 @@
 				PRODUCT_BUNDLE_IDENTIFIER = audiogum.Bass2;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = iphoneos;
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALID_ARCHS = "arm64e armv7 armv7s";
+				VALID_ARCHS = arm7;
 			};
 			name = Debug;
 		};
@@ -468,9 +469,10 @@
 				PRODUCT_BUNDLE_IDENTIFIER = audiogum.Bass2;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = iphoneos;
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALID_ARCHS = "arm64e armv7 armv7s";
+				VALID_ARCHS = arm7;
 			};
 			name = Release;
 		};
